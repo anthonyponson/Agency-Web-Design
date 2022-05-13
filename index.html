@@ -10,17 +10,18 @@
   <!---bootstarp css file--->
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- fontawesome cdn link -->
-  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- <script src="https://kit.fontawesome.com/287a793679.js" crossorigin="anonymous"></script> -->
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
   <!----site style sheet---->
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
   <!---nav bar staring section -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar autohide navbar-expand-lg navbar-light" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">creative.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -46,12 +47,6 @@
       </div>
     </div>
   </nav>
-
-
-
-
-
-
   <!---nav bar ending section -->
 
   <!--- home section----->
@@ -74,7 +69,7 @@
         </div>
         <div class="col-lg-6">
           <div class="hero-image">
-            <img class="img-responsive text-right" src="img/laptop-poses.png" alt="">
+            <img class="img-fluid text-right" src="img/laptop-poses.png" alt="">
           </div>
         </div>
       </div>
@@ -91,7 +86,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="about-img">
-            <img class="about-img-responsive" src="img/about.png" alt="">
+            <img class="img-fluid" src="img/about.png" alt="">
           </div>
         </div>
 
@@ -133,10 +128,11 @@
         </div>
         <div class="col-lg-6" services-inner-content></div>
       </div>
-      <div class="row">
+
+      <div class="row services-row">
         <div class="col-lg-4 col-md-6 fancy-hover-box">
           <div class="fancy-hover-box-inner">
-            <i class='bx bx-desktop bx-lg'></i>
+            <i class=" fas fa-laptop fa-3x"></i>
 
             <h3 class="thrid-primary-heading">Web Design</h3>
             <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, magnam.Lorem ipsum
@@ -147,9 +143,10 @@
         </div>
         <div class="col-lg-4 col-md-6 fancy-hover-box">
           <div class="fancy-hover-box-inner">
-            <i class='bx bx-paint bx-lg'></i>
+            <i class="fas fa-paint-brush fa-3x"></i>
+
             <h3 class="thrid-primary-heading">Graphic Design</h3>
-            <p class="services-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, magnamLorem
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, magnamLorem
               ipsum
               dolor, sit amet consectetur adipisicing elit. Expedita, magnam.Lorem ipsum dolor, sit amet consectetur
               adipisicing elit. Expedita, magnam</p>
@@ -158,8 +155,9 @@
 
         <div class="col-lg-4 fancy-hover-box">
           <div class="fancy-hover-box-inner">
-            <i class='bx bx-code-alt bx-lg'></i>
-            <h3 class="thrid-primary-heading">IOS Development</h3>
+            <i class="fas fa-android fa-3x"></i>
+
+            <h3 class="thrid-primary-heading">UI Design</h3>
             <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, magnam.Lorem ipsum
               dolor,
               sit amet consecteturLorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, magnamLorem ipsum
@@ -228,12 +226,25 @@
     </div>
   </section>
 
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+  </section>
+
 
 
 
   <script src=" js/bootstrap.min.js">
   </script>
-  <script src="js/custom.js"></script>
+
+  <script src="js/custom.js">
+
+  </script>
 
 </body>
 
