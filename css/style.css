@@ -39,7 +39,7 @@ ul {
     right: 0;
     left: 0;
     width: 100%;
-    z-index: 1030;
+    /* z-index: ; */
     background-color: #fff;
 }
 .scrolled-down{
@@ -199,9 +199,9 @@ color: var(--white-heading-color);
 }
 
 #contact{
-    padding: 150px 0;
+    padding: 150px 0 20px 0;
 }
 
 .contact-col{
-    padding: 50px 0
+    padding: 50px 0 0 0;
 }
